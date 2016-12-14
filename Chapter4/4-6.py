@@ -24,5 +24,46 @@ print str([0,5,9,9])
 
 print repr([0,5,9,9])
 
+print type('')
+
+s= 'xyz'
+print type(s)
+
+print type(100)
+
+print type (0 + 0j)
+
+print type(0L)
+
+print type(0.0)
+
+print type([])
+
+print type(())
+
+print type({})
+
+print type(type)
+
+class Foo : pass
+
+foo =  Foo()
+
+class Bar(object) :pass
+bar = Bar()
+
+print type(Foo)
+
+print type(foo)
+
+print type (Bar)
+
+print type (bar)
+
+
+
+
+
+
 
 
