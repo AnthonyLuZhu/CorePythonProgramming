@@ -35,12 +35,54 @@ print abs(1.2 - 2.1j)
 print abs(0.23 - 0.78)
 
 print coerce(1,2)
+print coerce(1.3, 134L)
 
-print (1.3, 134L)
 
-print (1,134L)
+print coerce(1,134L)
 
-print (1j , 134L)
+print coerce(1j , 134L)
+
+print coerce(1.23 - 41j,134L)
+
+print divmod (10, 3)
+
+print divmod(3, 10)
+
+print divmod(10, 2.5)
+
+print divmod(2.5, 10)
+
+print divmod(2 + 1j, 0.5 - 1j)
+
+print pow(2,5)
+
+print pow(5,2)
+
+print pow(3.141592, 2)
+
+print pow(1+ 1j, 3)
+
+print round(3)
+
+print round(3.45)
+
+print round(3.499999,1)
+
+import math
+for eachNum in range(10):
+    print round(math.pi, eachNum)
+
+print round(-3.5)
+
+print round(-3.4)
+
+print round(-3.49)
+
+print round(-3.49, 1)
+
+
+
+
 
 
 
