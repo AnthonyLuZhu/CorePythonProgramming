@@ -80,6 +80,31 @@ print round(-3.49)
 
 print round(-3.49, 1)
 
+for eachNum in (.2, .7 , 1.2, 1.7, -.2, -.7, -1.2, -1.7):
+    print "int (%.1f)\t% +  .1f" % (eachNum, float(int(eachNum)))
+    print "floor(%1f)\t% +  1f" % (eachNum, math.floor(eachNum))
+    print "round(%1f)\t% +  1f" % (eachNum, round(eachNum))
+    print '-' * 20
+
+
+print hex(255)
+
+print hex(2309482231L)
+
+print oct(255)
+
+print oct(230948231)
+
+print oct(230948231L)
+
+print ord ('a')
+print ord ('A')
+print ord ('0')
+print chr (97)
+print chr (65L)
+print chr(48)
+
+
 
 
 
