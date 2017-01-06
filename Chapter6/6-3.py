@@ -43,6 +43,16 @@ print s
 
 print ('%s%s' % (s[:3],s[20])).upper();
 
+foo = "Hello" "world"
+print foo
 
+print 'Hello' + u' '+ 'World' + u' '
 
+print 'Ni!' * 3
 
+print '*' * 40
+
+print  '-' * 20, 'Hello World!', '-' * 20
+
+who = 'knights'
+print who * 2
