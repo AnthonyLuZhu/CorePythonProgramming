@@ -26,3 +26,23 @@ print ('bc' in 'abcd')
 print 'n' in 'abcd'
 print 'nm' not in 'abcd'
 
+print 'Spanish' + 'Inquistion'
+
+print 'Spanish' + ' '+'Inquistion'
+
+s = 'Spanish' + ' ' + 'Inquistion' + ' Made Easy'
+print s
+
+import string
+print string.upper(s[:3] + s[20])
+
+print '%s %s' % ('Spanish','Inquistion')
+
+s = ' '.join(('Spanish', 'Inquistion', 'Made Easy'))
+print s
+
+print ('%s%s' % (s[:3],s[20])).upper();
+
+
+
+
