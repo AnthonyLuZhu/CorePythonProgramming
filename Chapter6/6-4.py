@@ -25,6 +25,27 @@ print 'http://xxx.yyy.zzz/%s/%s.html' % (w,p)
 
 print 'There are %(howmany)d %(lang)s Quotation symbols' % {'lang':'Python', 'howmany': 3}
 
+from string import Template
+s  = Template('There are ${howmany} ${lang} Quotation Symbols')
+print s.substitute(lang='Python', howmany=3)
+
+print s.safe_substitute(lang='Python')
+
+print '\n'
+print r'\n'
+
+
+
+import re
+m = re.search('\\[rtfvn]', r'Hello World!\n')
+if m is not None:
+    print m.group()
+
+m = re.search(r'\\[rtfvn]', r'Hello World!\n')
+if m is not None:
+    print m.group()
+
+
 
 
 
