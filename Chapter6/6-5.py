@@ -23,3 +23,20 @@ print min('ABabCDcd')
 s = 'foobar'
 for i, t  in enumerate(s):
     print i,t
+
+user_input = raw_input("Enter your name:")
+
+print user_input
+print len(user_input)
+
+print isinstance(u'\0xAB',str)
+print  not isinstance('foo', unicode)
+print isinstance(u'',basestring)
+print not isinstance('foo', basestring)
+
+print chr(65)
+print ord('a')
+print unichr(12345)
+
+
+
