@@ -16,3 +16,8 @@ print t[0][1]
 t[0][1] = ['abc','def']
 
 print t
+
+print  type(['abc'])
+
+print type(('xyz',))
+
